@@ -3,11 +3,11 @@
   <title>xffBlog</title>
   
   <subtitle>积跬步以至千里！</subtitle>
-  <link href="/hexo/atom.xml" rel="self"/>
+  <link href="/xf.github.io/atom.xml" rel="self"/>
   
-  <link href="http://xff6060.cn/"/>
+  <link href="http://xff6060.cn/xf.github.io/"/>
   <updated>2018-03-15T03:39:45.379Z</updated>
-  <id>http://xff6060.cn/</id>
+  <id>http://xff6060.cn/xf.github.io/</id>
   
   <author>
     <name>xiaofei He</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>如何卖仓</title>
-    <link href="http://xff6060.cn/2018/03/15/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://xff6060.cn/2018/03/15/如何编写博客/</id>
+    <link href="http://xff6060.cn/xf.github.io/2018/03/15/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://xff6060.cn/xf.github.io/2018/03/15/如何编写博客/</id>
     <published>2018-03-15T01:28:24.000Z</published>
     <updated>2018-03-15T03:39:45.379Z</updated>
     
@@ -31,17 +31,17 @@
     
     </summary>
     
-      <category term="经济学" scheme="http://xff6060.cn/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+      <category term="经济学" scheme="http://xff6060.cn/xf.github.io/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
     
     
-      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xff6060.cn/xf.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>多态</title>
-    <link href="http://xff6060.cn/2018/03/15/hello/"/>
-    <id>http://xff6060.cn/2018/03/15/hello/</id>
+    <link href="http://xff6060.cn/xf.github.io/2018/03/15/hello/"/>
+    <id>http://xff6060.cn/xf.github.io/2018/03/15/hello/</id>
     <published>2018-03-15T01:21:22.000Z</published>
     <updated>2018-03-15T11:08:14.529Z</updated>
     
@@ -53,17 +53,17 @@
     
     </summary>
     
-      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://xff6060.cn/xf.github.io/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xff6060.cn/xf.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>接口</title>
-    <link href="http://xff6060.cn/2018/03/14/home/"/>
-    <id>http://xff6060.cn/2018/03/14/home/</id>
+    <link href="http://xff6060.cn/xf.github.io/2018/03/14/home/"/>
+    <id>http://xff6060.cn/xf.github.io/2018/03/14/home/</id>
     <published>2018-03-14T10:12:45.000Z</published>
     <updated>2018-03-15T03:40:46.763Z</updated>
     
@@ -75,17 +75,17 @@
     
     </summary>
     
-      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://xff6060.cn/xf.github.io/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xff6060.cn/xf.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>article title</title>
-    <link href="http://xff6060.cn/2018/03/14/article-title/"/>
-    <id>http://xff6060.cn/2018/03/14/article-title/</id>
+    <link href="http://xff6060.cn/xf.github.io/2018/03/14/article-title/"/>
+    <id>http://xff6060.cn/xf.github.io/2018/03/14/article-title/</id>
     <published>2018-03-14T08:58:55.000Z</published>
     <updated>2018-03-14T08:58:55.975Z</updated>
     
