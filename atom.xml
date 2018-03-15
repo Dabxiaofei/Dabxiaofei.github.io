@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>xffBlog</title>
   
-  
+  <subtitle>积跬步以至千里！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-03-14T10:12:45.500Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://Dabxiaofei.github.io/"/>
+  <updated>2018-03-14T13:32:08.240Z</updated>
+  <id>http://Dabxiaofei.github.io/</id>
   
   <author>
     <name>xiaofei He</name>
@@ -17,13 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>home</title>
-    <link href="http://yoursite.com/2018/03/14/home/"/>
-    <id>http://yoursite.com/2018/03/14/home/</id>
+    <title>多态和接口</title>
+    <link href="http://Dabxiaofei.github.io/2018/03/14/home/"/>
+    <id>http://Dabxiaofei.github.io/2018/03/14/home/</id>
     <published>2018-03-14T10:12:45.000Z</published>
-    <updated>2018-03-14T10:12:45.500Z</updated>
+    <updated>2018-03-14T13:32:08.240Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">banner: http://blog.zhangruipeng.me/hexo-theme-icarus/gallery/salt-lake.jpg</span><br><span class="line">多态</span><br><span class="line">作用：消除类型之间的耦合关系</span><br><span class="line">父类可以使用子类覆写自己的方法，在父类使用private，final时，子类不能继承。通过的是向上转型的方法。</span><br><span class="line">java除了static和final方法之外，都属于后期绑定。</span><br><span class="line">初始化顺序：</span><br><span class="line">1、基类构造类</span><br><span class="line">2、成员初始化方法</span><br><span class="line">3、类构造器方法</span><br><span class="line">private方法默认属final</span><br><span class="line">接口</span><br><span class="line">抽象类的方法默认为抽象</span><br><span class="line">接口可以继承接口</span><br><span class="line">接口中的域隐式地是static和final的</span><br><span class="line">接口可以嵌套在其他类和接口中</span><br><span class="line">当实现某个接口时，并不需要实现嵌套在其内部的任何接口</span><br><span class="line">使用接口的时候，要注重的是重构，而不是增加接口。</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
+      
     
     </summary>
     
@@ -32,8 +39,8 @@
   
   <entry>
     <title>article title</title>
-    <link href="http://yoursite.com/2018/03/14/article-title/"/>
-    <id>http://yoursite.com/2018/03/14/article-title/</id>
+    <link href="http://Dabxiaofei.github.io/2018/03/14/article-title/"/>
+    <id>http://Dabxiaofei.github.io/2018/03/14/article-title/</id>
     <published>2018-03-14T08:58:55.000Z</published>
     <updated>2018-03-14T08:58:55.975Z</updated>
     
@@ -46,8 +53,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/03/14/hello-world/"/>
-    <id>http://yoursite.com/2018/03/14/hello-world/</id>
+    <link href="http://Dabxiaofei.github.io/2018/03/14/hello-world/"/>
+    <id>http://Dabxiaofei.github.io/2018/03/14/hello-world/</id>
     <published>2018-03-14T03:56:42.944Z</published>
     <updated>2018-03-14T03:56:42.944Z</updated>
     
