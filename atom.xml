@@ -5,9 +5,9 @@
   <subtitle>积跬步以至千里！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://Dabxiaofei.github.io/"/>
-  <updated>2018-03-14T13:32:08.240Z</updated>
-  <id>http://Dabxiaofei.github.io/</id>
+  <link href="http://xff6060.cn/"/>
+  <updated>2018-03-15T03:39:45.379Z</updated>
+  <id>http://xff6060.cn/</id>
   
   <author>
     <name>xiaofei He</name>
@@ -17,55 +17,79 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>多态和接口</title>
-    <link href="http://Dabxiaofei.github.io/2018/03/14/home/"/>
-    <id>http://Dabxiaofei.github.io/2018/03/14/home/</id>
-    <published>2018-03-14T10:12:45.000Z</published>
-    <updated>2018-03-14T13:32:08.240Z</updated>
+    <title>如何卖仓</title>
+    <link href="http://xff6060.cn/2018/03/15/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://xff6060.cn/2018/03/15/如何编写博客/</id>
+    <published>2018-03-15T01:28:24.000Z</published>
+    <updated>2018-03-15T03:39:45.379Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">banner: http://blog.zhangruipeng.me/hexo-theme-icarus/gallery/salt-lake.jpg</span><br><span class="line">多态</span><br><span class="line">作用：消除类型之间的耦合关系</span><br><span class="line">父类可以使用子类覆写自己的方法，在父类使用private，final时，子类不能继承。通过的是向上转型的方法。</span><br><span class="line">java除了static和final方法之外，都属于后期绑定。</span><br><span class="line">初始化顺序：</span><br><span class="line">1、基类构造类</span><br><span class="line">2、成员初始化方法</span><br><span class="line">3、类构造器方法</span><br><span class="line">private方法默认属final</span><br><span class="line">接口</span><br><span class="line">抽象类的方法默认为抽象</span><br><span class="line">接口可以继承接口</span><br><span class="line">接口中的域隐式地是static和final的</span><br><span class="line">接口可以嵌套在其他类和接口中</span><br><span class="line">当实现某个接口时，并不需要实现嵌套在其内部的任何接口</span><br><span class="line">使用接口的时候，要注重的是重构，而不是增加接口。</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>摘要:生活不止眼前的苟且，还有日后的苟且。<br><a id="more"></a><br>    1．  生存法则: 由开仓原则、短期原则、最大风险额度三项原则组成；保障资本的安全是投资最核心的法则！这是所有投资法则和投资策略的基石。身为职业投资管理者，最低程度为了今后10年的长期平稳发展和生存，减少风险、回避风险、控制风险是重中之重！<br>2．  最大风险额度原则：任何一笔交易最大亏损都不得高于资产的5％,是生存法则的最后一层防护墙。无法控制损失的，风险/报酬比过高的交易就是不当交易，想稳定发展就必须避免――不当交易。亏不起，经不起任何意外的打击，出局了就什么都没了！</p><p>3．  不做任何没设止损的交易。到了止损就习惯的严守纪律能立即了结头寸。交易没设止损就如同战场上没穿防弹衣，灾难临头将导致生活会突然中止，正确的习惯止损是成熟的首要，将挽救你的金融生涯.</p><p>4．  耐心，基本功之一，放弃该放弃的，把握能把握的；只坚持做符自己投资标准的投资，简以致胜，以简单应对复杂，把握中期时间框架,具有无限等待的耐心！舍弃不合要求的赌局，可以很轻松的对能力以外的机会说“不”。市场存在风险有限而获利空间巨大的战略机遇！没有胜率不出手。从长期看，良好的耐心终会获得丰厚的回报！</p><p>耐心――趋势不变，持仓不变！坚定的拿住持仓！！</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
-      
+      &lt;p&gt;摘要:生活不止眼前的苟且，还有日后的苟且。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
+      <category term="经济学" scheme="http://xff6060.cn/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多态</title>
+    <link href="http://xff6060.cn/2018/03/15/hello/"/>
+    <id>http://xff6060.cn/2018/03/15/hello/</id>
+    <published>2018-03-15T01:21:22.000Z</published>
+    <updated>2018-03-15T11:08:14.529Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要:java编程思想<br><a id="more"></a><br>多态<br>作用：消除类型之间的耦合关系<br>父类可以使用子类覆写自己的方法，在父类使用private，final时，子类不能继承。通过的是向上转型的方法。<br>java除了static和final方法之外，都属于后期绑定。<br>初始化顺序：<br>1、基类构造类<br>2、成员初始化方法<br>3、类构造器方法<br>private方法默认属final</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:java编程思想&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>接口</title>
+    <link href="http://xff6060.cn/2018/03/14/home/"/>
+    <id>http://xff6060.cn/2018/03/14/home/</id>
+    <published>2018-03-14T10:12:45.000Z</published>
+    <updated>2018-03-15T03:40:46.763Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要:java编程思想<br><a id="more"></a><br>接口<br>抽象类的方法默认为抽象<br>接口可以继承接口<br>接口中的域隐式地是static和final的<br>接口可以嵌套在其他类和接口中<br>当实现某个接口时，并不需要实现嵌套在其内部的任何接口<br>使用接口的时候，要注重的是重构，而不是增加接口。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:java编程思想&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>article title</title>
-    <link href="http://Dabxiaofei.github.io/2018/03/14/article-title/"/>
-    <id>http://Dabxiaofei.github.io/2018/03/14/article-title/</id>
+    <link href="http://xff6060.cn/2018/03/14/article-title/"/>
+    <id>http://xff6060.cn/2018/03/14/article-title/</id>
     <published>2018-03-14T08:58:55.000Z</published>
     <updated>2018-03-14T08:58:55.975Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://Dabxiaofei.github.io/2018/03/14/hello-world/"/>
-    <id>http://Dabxiaofei.github.io/2018/03/14/hello-world/</id>
-    <published>2018-03-14T03:56:42.944Z</published>
-    <updated>2018-03-14T03:56:42.944Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
     
     </summary>
     
