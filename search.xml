@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[如何卖仓]]></title>
-    <url>%2F2018%2F03%2F15%2F%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2%2F</url>
+    <url>%2Fhexo%2F2018%2F03%2F15%2F%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[摘要:生活不止眼前的苟且，还有日后的苟且。 1． 生存法则: 由开仓原则、短期原则、最大风险额度三项原则组成；保障资本的安全是投资最核心的法则！这是所有投资法则和投资策略的基石。身为职业投资管理者，最低程度为了今后10年的长期平稳发展和生存，减少风险、回避风险、控制风险是重中之重！2． 最大风险额度原则：任何一笔交易最大亏损都不得高于资产的5％,是生存法则的最后一层防护墙。无法控制损失的，风险/报酬比过高的交易就是不当交易，想稳定发展就必须避免――不当交易。亏不起，经不起任何意外的打击，出局了就什么都没了！ 3． 不做任何没设止损的交易。到了止损就习惯的严守纪律能立即了结头寸。交易没设止损就如同战场上没穿防弹衣，灾难临头将导致生活会突然中止，正确的习惯止损是成熟的首要，将挽救你的金融生涯. 4． 耐心，基本功之一，放弃该放弃的，把握能把握的；只坚持做符自己投资标准的投资，简以致胜，以简单应对复杂，把握中期时间框架,具有无限等待的耐心！舍弃不合要求的赌局，可以很轻松的对能力以外的机会说“不”。市场存在风险有限而获利空间巨大的战略机遇！没有胜率不出手。从长期看，良好的耐心终会获得丰厚的回报！ 耐心――趋势不变，持仓不变！坚定的拿住持仓！！]]></content>
       <categories>
         <category>经济学</category>
@@ -13,7 +13,7 @@
   </entry>
   <entry>
     <title><![CDATA[多态]]></title>
-    <url>%2F2018%2F03%2F15%2Fhello%2F</url>
+    <url>%2Fhexo%2F2018%2F03%2F15%2Fhello%2F</url>
     <content type="text"><![CDATA[摘要:java编程思想多态作用：消除类型之间的耦合关系父类可以使用子类覆写自己的方法，在父类使用private，final时，子类不能继承。通过的是向上转型的方法。java除了static和final方法之外，都属于后期绑定。初始化顺序：1、基类构造类2、成员初始化方法3、类构造器方法private方法默认属final]]></content>
       <categories>
         <category>成长</category>
@@ -24,7 +24,7 @@
   </entry>
   <entry>
     <title><![CDATA[接口]]></title>
-    <url>%2F2018%2F03%2F14%2Fhome%2F</url>
+    <url>%2Fhexo%2F2018%2F03%2F14%2Fhome%2F</url>
     <content type="text"><![CDATA[摘要:java编程思想接口抽象类的方法默认为抽象接口可以继承接口接口中的域隐式地是static和final的接口可以嵌套在其他类和接口中当实现某个接口时，并不需要实现嵌套在其内部的任何接口使用接口的时候，要注重的是重构，而不是增加接口。]]></content>
       <categories>
         <category>成长</category>
@@ -35,7 +35,7 @@
   </entry>
   <entry>
     <title><![CDATA[article title]]></title>
-    <url>%2F2018%2F03%2F14%2Farticle-title%2F</url>
+    <url>%2Fhexo%2F2018%2F03%2F14%2Farticle-title%2F</url>
     <content type="text"></content>
   </entry>
 </search>

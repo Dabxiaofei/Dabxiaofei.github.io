@@ -3,7 +3,7 @@
   <title>xffBlog</title>
   
   <subtitle>积跬步以至千里！</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/hexo/atom.xml" rel="self"/>
   
   <link href="http://xff6060.cn/"/>
   <updated>2018-03-15T03:39:45.379Z</updated>
