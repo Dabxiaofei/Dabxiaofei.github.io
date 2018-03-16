@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[实现点击出现桃心效果]]></title>
     <url>%2F2018%2F03%2F16%2F1130%2F</url>
-    <content type="text"><![CDATA[摘要:优化博客之路 具体实现方法在网址输入如下http://7u2ss1.com1.z0.glb.clouddn.com/love.js然后将里面的代码copy一下，新建love.js文件并且将代码复制进去，然后保存。将love.js文件放到路径/themes/next/source/js/src里面，然后打开\themes\next\layout_layout.swig文件,在末尾（在前面引用会出现找不到的bug）添加以下代码： &lt;script type=&quot;text/javascript&quot; src=&quot;/js/src/love.js&quot;&gt;&lt;/script&gt; 然后我就突然发现，我的小心心呢？难道装什么插件跑了么？]]></content>
+    <content type="text"><![CDATA[摘要:优化博客之路 具体实现方法在网址输入如下http://7u2ss1.com1.z0.glb.clouddn.com/love.js然后将里面的代码copy一下，新建love.js文件并且将代码复制进去，然后保存。将love.js文件放到路径/themes/next/source/js/src里面，然后打开\themes\next\layout_layout.swig文件,在末尾（在前面引用会出现找不到的bug）添加以下代码： &lt;script type=&quot;text/javascript&quot; src=&quot;/js/src/love.js&quot;&gt;&lt;/script&gt;]]></content>
       <categories>
         <category>成长</category>
       </categories>
