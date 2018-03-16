@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[1202]]></title>
+    <title><![CDATA[接口]]></title>
     <url>%2Fxf.github.io%2F2018%2F03%2F16%2F1202%2F</url>
     <content type="text"><![CDATA[摘要:优化博客之路 接口抽象类的方法默认为抽象接口可以继承接口接口中的域隐式地是static和final的接口可以嵌套在其他类和接口中当实现某个接口时，并不需要实现嵌套在其内部的任何接口使用接口的时候，要注重的是重构，而不是增加接口。]]></content>
       <categories>

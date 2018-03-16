@@ -6,7 +6,7 @@
   <link href="/xf.github.io/atom.xml" rel="self"/>
   
   <link href="http://xff6060.cn/xf.github.io/"/>
-  <updated>2018-03-16T04:05:15.085Z</updated>
+  <updated>2018-03-16T05:06:35.289Z</updated>
   <id>http://xff6060.cn/xf.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>1202</title>
+    <title>接口</title>
     <link href="http://xff6060.cn/xf.github.io/2018/03/16/1202/"/>
     <id>http://xff6060.cn/xf.github.io/2018/03/16/1202/</id>
     <published>2018-03-16T04:02:57.000Z</published>
-    <updated>2018-03-16T04:05:15.085Z</updated>
+    <updated>2018-03-16T05:06:35.289Z</updated>
     
     <content type="html"><![CDATA[<p>摘要:优化博客之路</p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="/xf.github.io/2018/03/16/1202/jvshan.jpg" alt="你想输入的替代文字"></h2><a id="more"></a><p>接口<br>抽象类的方法默认为抽象<br>接口可以继承接口<br>接口中的域隐式地是static和final的<br>接口可以嵌套在其他类和接口中<br>当实现某个接口时，并不需要实现嵌套在其内部的任何接口<br>使用接口的时候，要注重的是重构，而不是增加接口。</p>]]></content>
     
