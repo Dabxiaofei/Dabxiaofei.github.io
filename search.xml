@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[1202]]></title>
+    <url>%2Fxf.github.io%2F2018%2F03%2F16%2F1202%2F</url>
+    <content type="text"><![CDATA[摘要:优化博客之路 接口抽象类的方法默认为抽象接口可以继承接口接口中的域隐式地是static和final的接口可以嵌套在其他类和接口中当实现某个接口时，并不需要实现嵌套在其内部的任何接口使用接口的时候，要注重的是重构，而不是增加接口。]]></content>
+      <categories>
+        <category>成长</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[实现点击出现桃心效果]]></title>
     <url>%2Fxf.github.io%2F2018%2F03%2F16%2F1130%2F</url>
     <content type="text"><![CDATA[摘要:优化博客之路 具体实现方法在网址输入如下http://7u2ss1.com1.z0.glb.clouddn.com/love.js然后将里面的代码copy一下，新建love.js文件并且将代码复制进去，然后保存。将love.js文件放到路径/themes/next/source/js/src里面，然后打开\themes\next\layout_layout.swig文件,在末尾（在前面引用会出现找不到的bug）添加以下代码： &lt;script type=&quot;text/javascript&quot; src=&quot;/js/src/love.js&quot;&gt;&lt;/script&gt; 然后我就突然发现，我的小心心呢？难道装什么插件跑了么？]]></content>
@@ -37,17 +48,6 @@
     <title><![CDATA[多态]]></title>
     <url>%2Fxf.github.io%2F2018%2F03%2F15%2Fhello%2F</url>
     <content type="text"><![CDATA[摘要:java编程思想多态作用：消除类型之间的耦合关系父类可以使用子类覆写自己的方法，在父类使用private，final时，子类不能继承。通过的是向上转型的方法。java除了static和final方法之外，都属于后期绑定。初始化顺序：1、基类构造类2、成员初始化方法3、类构造器方法private方法默认属final]]></content>
-      <categories>
-        <category>成长</category>
-      </categories>
-      <tags>
-        <tag>读书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[接口]]></title>
-    <url>%2Fxf.github.io%2F2018%2F03%2F14%2Fhome%2F</url>
-    <content type="text"><![CDATA[摘要:java编程思想接口抽象类的方法默认为抽象接口可以继承接口接口中的域隐式地是static和final的接口可以嵌套在其他类和接口中当实现某个接口时，并不需要实现嵌套在其内部的任何接口使用接口的时候，要注重的是重构，而不是增加接口。]]></content>
       <categories>
         <category>成长</category>
       </categories>
