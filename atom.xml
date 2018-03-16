@@ -3,11 +3,11 @@
   <title>xffBlog</title>
   
   <subtitle>积跬步以至千里！</subtitle>
-  <link href="/xf.github.io/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://xff6060.cn/xf.github.io/"/>
+  <link href="http://xff6060.cn/"/>
   <updated>2018-03-16T05:06:35.289Z</updated>
-  <id>http://xff6060.cn/xf.github.io/</id>
+  <id>http://xff6060.cn/</id>
   
   <author>
     <name>xiaofei He</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>接口</title>
-    <link href="http://xff6060.cn/xf.github.io/2018/03/16/1202/"/>
-    <id>http://xff6060.cn/xf.github.io/2018/03/16/1202/</id>
+    <link href="http://xff6060.cn/2018/03/16/1202/"/>
+    <id>http://xff6060.cn/2018/03/16/1202/</id>
     <published>2018-03-16T04:02:57.000Z</published>
     <updated>2018-03-16T05:06:35.289Z</updated>
     
@@ -32,17 +32,17 @@
     
     </summary>
     
-      <category term="成长" scheme="http://xff6060.cn/xf.github.io/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="java" scheme="http://xff6060.cn/xf.github.io/tags/java/"/>
+      <category term="java" scheme="http://xff6060.cn/tags/java/"/>
     
   </entry>
   
   <entry>
     <title>实现点击出现桃心效果</title>
-    <link href="http://xff6060.cn/xf.github.io/2018/03/16/1130/"/>
-    <id>http://xff6060.cn/xf.github.io/2018/03/16/1130/</id>
+    <link href="http://xff6060.cn/2018/03/16/1130/"/>
+    <id>http://xff6060.cn/2018/03/16/1130/</id>
     <published>2018-03-16T03:30:39.000Z</published>
     <updated>2018-03-16T03:48:13.259Z</updated>
     
@@ -54,17 +54,17 @@
     
     </summary>
     
-      <category term="成长" scheme="http://xff6060.cn/xf.github.io/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="hexo" scheme="http://xff6060.cn/xf.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://xff6060.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>一天建立写出博客</title>
-    <link href="http://xff6060.cn/xf.github.io/2018/03/15/1505/"/>
-    <id>http://xff6060.cn/xf.github.io/2018/03/15/1505/</id>
+    <link href="http://xff6060.cn/2018/03/15/1505/"/>
+    <id>http://xff6060.cn/2018/03/15/1505/</id>
     <published>2018-03-15T12:40:22.000Z</published>
     <updated>2018-03-16T03:51:21.647Z</updated>
     
@@ -76,17 +76,17 @@
     
     </summary>
     
-      <category term="成长" scheme="http://xff6060.cn/xf.github.io/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="hexo" scheme="http://xff6060.cn/xf.github.io/tags/hexo/"/>
+      <category term="hexo" scheme="http://xff6060.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>如何卖仓</title>
-    <link href="http://xff6060.cn/xf.github.io/2018/03/15/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://xff6060.cn/xf.github.io/2018/03/15/如何编写博客/</id>
+    <link href="http://xff6060.cn/2018/03/15/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://xff6060.cn/2018/03/15/如何编写博客/</id>
     <published>2018-03-15T01:28:24.000Z</published>
     <updated>2018-03-16T04:02:27.541Z</updated>
     
@@ -98,17 +98,17 @@
     
     </summary>
     
-      <category term="经济学" scheme="http://xff6060.cn/xf.github.io/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+      <category term="经济学" scheme="http://xff6060.cn/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
     
     
-      <category term="读书" scheme="http://xff6060.cn/xf.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
   <entry>
     <title>多态</title>
-    <link href="http://xff6060.cn/xf.github.io/2018/03/15/hello/"/>
-    <id>http://xff6060.cn/xf.github.io/2018/03/15/hello/</id>
+    <link href="http://xff6060.cn/2018/03/15/hello/"/>
+    <id>http://xff6060.cn/2018/03/15/hello/</id>
     <published>2018-03-15T01:21:22.000Z</published>
     <updated>2018-03-16T04:01:38.948Z</updated>
     
@@ -120,10 +120,10 @@
     
     </summary>
     
-      <category term="成长" scheme="http://xff6060.cn/xf.github.io/categories/%E6%88%90%E9%95%BF/"/>
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
     
     
-      <category term="读书" scheme="http://xff6060.cn/xf.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="http://xff6060.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
