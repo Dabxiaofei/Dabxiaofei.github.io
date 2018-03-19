@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xff6060.cn/"/>
-  <updated>2018-03-16T05:06:35.289Z</updated>
+  <updated>2018-03-19T01:30:24.086Z</updated>
   <id>http://xff6060.cn/</id>
   
   <author>
@@ -17,18 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>java二叉树</title>
+    <link href="http://xff6060.cn/2018/03/19/1901/"/>
+    <id>http://xff6060.cn/2018/03/19/1901/</id>
+    <published>2018-03-19T01:22:04.000Z</published>
+    <updated>2018-03-19T01:30:24.086Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要:1天建立博客的路程<br><img src="/2018/03/19/1901/niubi.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>今天练习用java实现二叉树的遍历算法，首先我先编写二叉树类BinaryTree，代码如下：<br>package package2;<br>public class BinaryTree {</p><p> int data;      //根节点数据<br> BinaryTree left;    //左子树<br> BinaryTree right;   //右子树</p><p> public BinaryTree(int data)    //实例化二叉树类<br> {<br>  this.data = data;<br>  left = null;<br>  right = null;<br> }</p><p> public void insert(BinaryTree root,int data){     //向二叉树中插入子节点<br>  if(data&gt;root.data)                               //二叉树的左节点都比根节点小<br>  {<br>   if(root.right==null){<br>    root.right = new BinaryTree(data);<br>   }else{<br>    this.insert(root.right, data);<br>   }<br>  }else{                                          //二叉树的右节点都比根节点大<br>   if(root.left==null){<br>    root.left = new BinaryTree(data);<br>   }else{<br>    this.insert(root.left, data);<br>   }<br>  }<br> }<br>}<br>当建立好二叉树类后可以创建二叉树实例，并实现二叉树的先根遍历，中根遍历，后根遍历，代码如下：<br>package package2;<br>public class BinaryTreePreorder {</p><p> public static void preOrder(BinaryTree root){  //先根遍历<br>  if(root!=null){<br>   System.out.print(root.data+”-“);<br>   preOrder(root.left);<br>   preOrder(root.right);<br>  }<br> }</p><p> public static void inOrder(BinaryTree root){     //中根遍历</p><p>  if(root!=null){<br>   inOrder(root.left);<br>   System.out.print(root.data+”–”);<br>   inOrder(root.right);<br>  }<br> }</p><p> public static void postOrder(BinaryTree root){    //后根遍历</p><p>  if(root!=null){<br>   postOrder(root.left);<br>   postOrder(root.right);<br>   System.out.print(root.data+”—“);<br>  }<br> }</p><p> public static void main(String[] str){<br>  int[] array = {12,76,35,22,16,48,90,46,9,40};<br>  BinaryTree root = new BinaryTree(array[0]);   //创建二叉树<br>  for(int i=1;i&lt;array.length;i++){<br>   root.insert(root, array[i]);       //向二叉树中插入数据<br>  }<br>  System.out.println(“先根遍历：”);<br>  preOrder(root);<br>  System.out.println();<br>  System.out.println(“中根遍历：”);<br>  inOrder(root);<br>  System.out.println();<br>  System.out.println(“后根遍历：”);<br>  postOrder(root);<br>  创建好的二叉树图形如下:<br><img src="/2018/03/19/1901/图片1.png" alt="你想输入的替代文字"></p><p>当运行上面的程序后结果如下：<br>先根遍历：<br>12-9-76-35-22-16-48-46-40-90-<br>中根遍历：<br>9–12–16–22–35–40–46–48–76–90–<br>后根遍历：<br>9—16—22—40—46—48—35—90—76—12—</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:1天建立博客的路程&lt;br&gt;&lt;img src=&quot;/2018/03/19/1901/niubi.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="java" scheme="http://xff6060.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>接口</title>
     <link href="http://xff6060.cn/2018/03/16/1202/"/>
     <id>http://xff6060.cn/2018/03/16/1202/</id>
     <published>2018-03-16T04:02:57.000Z</published>
-    <updated>2018-03-16T05:06:35.289Z</updated>
+    <updated>2018-03-16T06:06:55.502Z</updated>
     
-    <content type="html"><![CDATA[<p>摘要:优化博客之路</p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="/2018/03/16/1202/jvshan.jpg" alt="你想输入的替代文字"></h2><a id="more"></a><p>接口<br>抽象类的方法默认为抽象<br>接口可以继承接口<br>接口中的域隐式地是static和final的<br>接口可以嵌套在其他类和接口中<br>当实现某个接口时，并不需要实现嵌套在其内部的任何接口<br>使用接口的时候，要注重的是重构，而不是增加接口。</p>]]></content>
+    <content type="html"><![CDATA[<p>摘要:优化博客之路<br><img src="/2018/03/16/1202/jvshan.jpg" alt="你想输入的替代文字"></p><a id="more"></a><p>接口<br>抽象类的方法默认为抽象<br>接口可以继承接口<br>接口中的域隐式地是static和final的<br>接口可以嵌套在其他类和接口中<br>当实现某个接口时，并不需要实现嵌套在其内部的任何接口<br>使用接口的时候，要注重的是重构，而不是增加接口。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要:优化博客之路&lt;/p&gt;
-&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;/2018/03/16/1202/jvshan.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/h2&gt;
+      &lt;p&gt;摘要:优化博客之路&lt;br&gt;&lt;img src=&quot;/2018/03/16/1202/jvshan.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -44,7 +65,7 @@
     <link href="http://xff6060.cn/2018/03/16/1130/"/>
     <id>http://xff6060.cn/2018/03/16/1130/</id>
     <published>2018-03-16T03:30:39.000Z</published>
-    <updated>2018-03-16T05:43:50.159Z</updated>
+    <updated>2018-03-16T06:06:14.742Z</updated>
     
     <content type="html"><![CDATA[<p>摘要:优化博客之路<br><img src="/2018/03/16/1130/123.jpg" alt="你想输入的替代文字"><br><a id="more"></a></p><p>具体实现方法<br>在网址输入如下<br><a href="http://7u2ss1.com1.z0.glb.clouddn.com/love.js" target="_blank" rel="noopener">http://7u2ss1.com1.z0.glb.clouddn.com/love.js</a><br>然后将里面的代码copy一下，新建love.js文件并且将代码复制进去，然后保存。将love.js文件放到路径/themes/next/source/js/src里面，然后打开\themes\next\layout_layout.swig文件,在末尾（在前面引用会出现找不到的bug）添加以下代码：</p><pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;/js/src/love.js&quot;&gt;&lt;/script&gt;</code></pre>]]></content>
     
@@ -66,7 +87,7 @@
     <link href="http://xff6060.cn/2018/03/15/1505/"/>
     <id>http://xff6060.cn/2018/03/15/1505/</id>
     <published>2018-03-15T12:40:22.000Z</published>
-    <updated>2018-03-16T03:51:21.647Z</updated>
+    <updated>2018-03-16T06:06:59.233Z</updated>
     
     <content type="html"><![CDATA[<p>摘要:1天建立博客的路程<br><img src="/2018/03/15/1505/timg.jpg" alt="你想输入的替代文字"><br><a id="more"></a></p><embed src="//music.163.com/style/swf/widget.swf?sid=34383004&type=2&auto=1&width=320&height=66" width="340" height="86" allownetworking="all"><p>从开始想建立博客，以及过去好久了，这么长的时间中，一直在断断续续向前走<br>开始的时候，想用ssm框架来写的，可惜，需要买一个服务器，就一直没动手<br>后来，因为公司用的是jfinal，就想用jfinal写出来的，顺带也就当学习了，还是不了了之<br>某天看到一群前端大神写的html，真的漂亮，就花了一天时间，把各种各种的好看页面都放上去了<br>然后，就一直完成工作了，那就是去学习android<br>知道昨天，我的工作完成之后，突然发现了一个博客，用的是hexo写出来的，好久之前的想法涌上心头。<br>我就查了一下资料，发现都在说这个框架的简便。<br>既然大家都说简单了，那就试试呗，哈哈，经过，12个小时的艰苦奋斗，终于完成了大部分的功能。<br>还有几处有bug，今天还没解决<br>1、搜索功能<br>2、上传后两张图片显示不出来<br>3、图标的问题，就是出不来<br>4、宠物的显示，出不来<br>5、网易云音乐没时间搞了<br>6、文章评论功能<br>大概就这些了，现在已经将近晚上9点了，还没吃晚饭，好饿，我要去吃饭了。</p>]]></content>
     
@@ -88,7 +109,7 @@
     <link href="http://xff6060.cn/2018/03/15/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2/"/>
     <id>http://xff6060.cn/2018/03/15/如何编写博客/</id>
     <published>2018-03-15T01:28:24.000Z</published>
-    <updated>2018-03-16T04:02:27.541Z</updated>
+    <updated>2018-03-16T06:07:02.226Z</updated>
     
     <content type="html"><![CDATA[<p>摘要:生活不止眼前的苟且，还有日后的苟且。<br><img src="/2018/03/15/如何编写博客/sanwa.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>    1．  生存法则: 由开仓原则、短期原则、最大风险额度三项原则组成；保障资本的安全是投资最核心的法则！这是所有投资法则和投资策略的基石。身为职业投资管理者，最低程度为了今后10年的长期平稳发展和生存，减少风险、回避风险、控制风险是重中之重！<br>2．  最大风险额度原则：任何一笔交易最大亏损都不得高于资产的5％,是生存法则的最后一层防护墙。无法控制损失的，风险/报酬比过高的交易就是不当交易，想稳定发展就必须避免――不当交易。亏不起，经不起任何意外的打击，出局了就什么都没了！</p><p>3．  不做任何没设止损的交易。到了止损就习惯的严守纪律能立即了结头寸。交易没设止损就如同战场上没穿防弹衣，灾难临头将导致生活会突然中止，正确的习惯止损是成熟的首要，将挽救你的金融生涯.</p><p>4．  耐心，基本功之一，放弃该放弃的，把握能把握的；只坚持做符自己投资标准的投资，简以致胜，以简单应对复杂，把握中期时间框架,具有无限等待的耐心！舍弃不合要求的赌局，可以很轻松的对能力以外的机会说“不”。市场存在风险有限而获利空间巨大的战略机遇！没有胜率不出手。从长期看，良好的耐心终会获得丰厚的回报！</p><p>耐心――趋势不变，持仓不变！坚定的拿住持仓！！</p>]]></content>
     
@@ -110,7 +131,7 @@
     <link href="http://xff6060.cn/2018/03/15/hello/"/>
     <id>http://xff6060.cn/2018/03/15/hello/</id>
     <published>2018-03-15T01:21:22.000Z</published>
-    <updated>2018-03-16T04:01:38.948Z</updated>
+    <updated>2018-03-16T06:07:00.414Z</updated>
     
     <content type="html"><![CDATA[<p>摘要:java编程思想<br><img src="/2018/03/15/hello/rewa.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>多态<br>作用：消除类型之间的耦合关系<br>父类可以使用子类覆写自己的方法，在父类使用private，final时，子类不能继承。通过的是向上转型的方法。<br>java除了static和final方法之外，都属于后期绑定。<br>初始化顺序：<br>1、基类构造类<br>2、成员初始化方法<br>3、类构造器方法<br>private方法默认属final</p>]]></content>
     
