@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xff6060.cn/"/>
-  <updated>2018-03-19T01:30:24.086Z</updated>
+  <updated>2018-03-29T07:37:30.441Z</updated>
   <id>http://xff6060.cn/</id>
   
   <author>
@@ -17,17 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>聊天喽</title>
+    <link href="http://xff6060.cn/2018/03/29/2901/"/>
+    <id>http://xff6060.cn/2018/03/29/2901/</id>
+    <published>2018-03-29T07:34:01.000Z</published>
+    <updated>2018-03-29T07:37:30.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要:聊天记录<br><img src="/2018/03/29/2901/dawa.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>{__/}<br>( • - •)<br>/つ 寿司要不要?</p><p>{__/}<br>( • - •)<br>/つ 草莓要不要?</p><p>{__/}<br>( • - •)<br>/つ🍕 披萨要不要?</p><p>{__/}<br>( • - •)<br>/つ🍑 桃子要不要?</p><p>{__/}<br>( • - •)<br>/つ  我你要不要?</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:聊天记录&lt;br&gt;&lt;img src=&quot;/2018/03/29/2901/dawa.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="聊天" scheme="http://xff6060.cn/tags/%E8%81%8A%E5%A4%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>java二叉树</title>
     <link href="http://xff6060.cn/2018/03/19/1901/"/>
     <id>http://xff6060.cn/2018/03/19/1901/</id>
     <published>2018-03-19T01:22:04.000Z</published>
-    <updated>2018-03-19T01:30:24.086Z</updated>
+    <updated>2018-03-19T02:51:43.698Z</updated>
     
-    <content type="html"><![CDATA[<p>摘要:1天建立博客的路程<br><img src="/2018/03/19/1901/niubi.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>今天练习用java实现二叉树的遍历算法，首先我先编写二叉树类BinaryTree，代码如下：<br>package package2;<br>public class BinaryTree {</p><p> int data;      //根节点数据<br> BinaryTree left;    //左子树<br> BinaryTree right;   //右子树</p><p> public BinaryTree(int data)    //实例化二叉树类<br> {<br>  this.data = data;<br>  left = null;<br>  right = null;<br> }</p><p> public void insert(BinaryTree root,int data){     //向二叉树中插入子节点<br>  if(data&gt;root.data)                               //二叉树的左节点都比根节点小<br>  {<br>   if(root.right==null){<br>    root.right = new BinaryTree(data);<br>   }else{<br>    this.insert(root.right, data);<br>   }<br>  }else{                                          //二叉树的右节点都比根节点大<br>   if(root.left==null){<br>    root.left = new BinaryTree(data);<br>   }else{<br>    this.insert(root.left, data);<br>   }<br>  }<br> }<br>}<br>当建立好二叉树类后可以创建二叉树实例，并实现二叉树的先根遍历，中根遍历，后根遍历，代码如下：<br>package package2;<br>public class BinaryTreePreorder {</p><p> public static void preOrder(BinaryTree root){  //先根遍历<br>  if(root!=null){<br>   System.out.print(root.data+”-“);<br>   preOrder(root.left);<br>   preOrder(root.right);<br>  }<br> }</p><p> public static void inOrder(BinaryTree root){     //中根遍历</p><p>  if(root!=null){<br>   inOrder(root.left);<br>   System.out.print(root.data+”–”);<br>   inOrder(root.right);<br>  }<br> }</p><p> public static void postOrder(BinaryTree root){    //后根遍历</p><p>  if(root!=null){<br>   postOrder(root.left);<br>   postOrder(root.right);<br>   System.out.print(root.data+”—“);<br>  }<br> }</p><p> public static void main(String[] str){<br>  int[] array = {12,76,35,22,16,48,90,46,9,40};<br>  BinaryTree root = new BinaryTree(array[0]);   //创建二叉树<br>  for(int i=1;i&lt;array.length;i++){<br>   root.insert(root, array[i]);       //向二叉树中插入数据<br>  }<br>  System.out.println(“先根遍历：”);<br>  preOrder(root);<br>  System.out.println();<br>  System.out.println(“中根遍历：”);<br>  inOrder(root);<br>  System.out.println();<br>  System.out.println(“后根遍历：”);<br>  postOrder(root);<br>  创建好的二叉树图形如下:<br><img src="/2018/03/19/1901/图片1.png" alt="你想输入的替代文字"></p><p>当运行上面的程序后结果如下：<br>先根遍历：<br>12-9-76-35-22-16-48-46-40-90-<br>中根遍历：<br>9–12–16–22–35–40–46–48–76–90–<br>后根遍历：<br>9—16—22—40—46—48—35—90—76—12—</p>]]></content>
+    <content type="html"><![CDATA[<p>摘要:数据结构<br><img src="/2018/03/19/1901/niubi.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>今天练习用java实现二叉树的遍历算法，首先我先编写二叉树类BinaryTree，代码如下：<br>package package2;<br>public class BinaryTree {</p><p> int data;      //根节点数据<br> BinaryTree left;    //左子树<br> BinaryTree right;   //右子树</p><p> public BinaryTree(int data)    //实例化二叉树类<br> {<br>  this.data = data;<br>  left = null;<br>  right = null;<br> }</p><p> public void insert(BinaryTree root,int data){     //向二叉树中插入子节点<br>  if(data&gt;root.data)                               //二叉树的左节点都比根节点小<br>  {<br>   if(root.right==null){<br>    root.right = new BinaryTree(data);<br>   }else{<br>    this.insert(root.right, data);<br>   }<br>  }else{                                          //二叉树的右节点都比根节点大<br>   if(root.left==null){<br>    root.left = new BinaryTree(data);<br>   }else{<br>    this.insert(root.left, data);<br>   }<br>  }<br> }<br>}<br>当建立好二叉树类后可以创建二叉树实例，并实现二叉树的先根遍历，中根遍历，后根遍历，代码如下：<br>package package2;<br>public class BinaryTreePreorder {</p><p> public static void preOrder(BinaryTree root){  //先根遍历<br>  if(root!=null){<br>   System.out.print(root.data+”-“);<br>   preOrder(root.left);<br>   preOrder(root.right);<br>  }<br> }</p><p> public static void inOrder(BinaryTree root){     //中根遍历</p><p>  if(root!=null){<br>   inOrder(root.left);<br>   System.out.print(root.data+”–”);<br>   inOrder(root.right);<br>  }<br> }</p><p> public static void postOrder(BinaryTree root){    //后根遍历</p><p>  if(root!=null){<br>   postOrder(root.left);<br>   postOrder(root.right);<br>   System.out.print(root.data+”—“);<br>  }<br> }</p><p> public static void main(String[] str){<br>  int[] array = {12,76,35,22,16,48,90,46,9,40};<br>  BinaryTree root = new BinaryTree(array[0]);   //创建二叉树<br>  for(int i=1;i&lt;array.length;i++){<br>   root.insert(root, array[i]);       //向二叉树中插入数据<br>  }<br>  System.out.println(“先根遍历：”);<br>  preOrder(root);<br>  System.out.println();<br>  System.out.println(“中根遍历：”);<br>  inOrder(root);<br>  System.out.println();<br>  System.out.println(“后根遍历：”);<br>  postOrder(root);<br>  创建好的二叉树图形如下:<br><img src="/2018/03/19/1901/图片1.png" alt="你想输入的替代文字"></p><p>当运行上面的程序后结果如下：<br>先根遍历：<br>12-9-76-35-22-16-48-46-40-90-<br>中根遍历：<br>9–12–16–22–35–40–46–48–76–90–<br>后根遍历：<br>9—16—22—40—46—48—35—90—76—12—</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要:1天建立博客的路程&lt;br&gt;&lt;img src=&quot;/2018/03/19/1901/niubi.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;br&gt;&lt;/p&gt;
+      &lt;p&gt;摘要:数据结构&lt;br&gt;&lt;img src=&quot;/2018/03/19/1901/niubi.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
@@ -43,13 +65,13 @@
     <link href="http://xff6060.cn/2018/03/16/1202/"/>
     <id>http://xff6060.cn/2018/03/16/1202/</id>
     <published>2018-03-16T04:02:57.000Z</published>
-    <updated>2018-03-16T06:06:55.502Z</updated>
+    <updated>2018-03-19T02:51:43.673Z</updated>
     
-    <content type="html"><![CDATA[<p>摘要:优化博客之路<br><img src="/2018/03/16/1202/jvshan.jpg" alt="你想输入的替代文字"></p><a id="more"></a><p>接口<br>抽象类的方法默认为抽象<br>接口可以继承接口<br>接口中的域隐式地是static和final的<br>接口可以嵌套在其他类和接口中<br>当实现某个接口时，并不需要实现嵌套在其内部的任何接口<br>使用接口的时候，要注重的是重构，而不是增加接口。</p>]]></content>
+    <content type="html"><![CDATA[<p>摘要:java编程思想<br><img src="/2018/03/16/1202/jvshan.jpg" alt="你想输入的替代文字"></p><a id="more"></a><p>接口<br>抽象类的方法默认为抽象<br>接口可以继承接口<br>接口中的域隐式地是static和final的<br>接口可以嵌套在其他类和接口中<br>当实现某个接口时，并不需要实现嵌套在其内部的任何接口<br>使用接口的时候，要注重的是重构，而不是增加接口。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要:优化博客之路&lt;br&gt;&lt;img src=&quot;/2018/03/16/1202/jvshan.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;摘要:java编程思想&lt;br&gt;&lt;img src=&quot;/2018/03/16/1202/jvshan.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/p&gt;
     
     </summary>
     

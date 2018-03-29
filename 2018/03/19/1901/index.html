@@ -151,20 +151,20 @@
 
 
 
-<meta name="description" content="摘要:1天建立博客的路程">
+<meta name="description" content="摘要:数据结构">
 <meta name="keywords" content="java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java二叉树">
 <meta property="og:url" content="http://xff6060.cn/2018/03/19/1901/index.html">
 <meta property="og:site_name" content="xffBlog">
-<meta property="og:description" content="摘要:1天建立博客的路程">
+<meta property="og:description" content="摘要:数据结构">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://xff6060.cn/2018/03/19/1901/niubi.jpg">
 <meta property="og:image" content="http://xff6060.cn/2018/03/19/1901/图片1.png">
-<meta property="og:updated_time" content="2018-03-19T01:30:24.086Z">
+<meta property="og:updated_time" content="2018-03-19T02:51:43.698Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java二叉树">
-<meta name="twitter:description" content="摘要:1天建立博客的路程">
+<meta name="twitter:description" content="摘要:数据结构">
 <meta name="twitter:image" content="http://xff6060.cn/2018/03/19/1901/niubi.jpg">
 
 
@@ -468,7 +468,7 @@
       
 
       
-        <p>摘要:1天建立博客的路程<br><img src="/2018/03/19/1901/niubi.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>今天练习用java实现二叉树的遍历算法，首先我先编写二叉树类BinaryTree，代码如下：<br>package package2;<br>public class BinaryTree {</p>
+        <p>摘要:数据结构<br><img src="/2018/03/19/1901/niubi.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>今天练习用java实现二叉树的遍历算法，首先我先编写二叉树类BinaryTree，代码如下：<br>package package2;<br>public class BinaryTree {</p>
 <p> int data;      //根节点数据<br> BinaryTree left;    //左子树<br> BinaryTree right;   //右子树</p>
 <p> public BinaryTree(int data)    //实例化二叉树类<br> {<br>  this.data = data;<br>  left = null;<br>  right = null;<br> }</p>
 <p> public void insert(BinaryTree root,int data){     //向二叉树中插入子节点<br>  if(data&gt;root.data)                               //二叉树的左节点都比根节点小<br>  {<br>   if(root.right==null){<br>    root.right = new BinaryTree(data);<br>   }else{<br>    this.insert(root.right, data);<br>   }<br>  }else{                                          //二叉树的右节点都比根节点大<br>   if(root.left==null){<br>    root.left = new BinaryTree(data);<br>   }else{<br>    this.insert(root.left, data);<br>   }<br>  }<br> }<br>}<br>当建立好二叉树类后可以创建二叉树实例，并实现二叉树的先根遍历，中根遍历，后根遍历，代码如下：<br>package package2;<br>public class BinaryTreePreorder {</p>
@@ -536,6 +536,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/03/29/2901/" rel="prev" title="聊天喽">
+                聊天喽 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -640,7 +644,7 @@ var jiathis_config={
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -662,7 +666,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
