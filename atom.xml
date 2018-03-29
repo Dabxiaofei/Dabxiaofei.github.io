@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xff6060.cn/"/>
-  <updated>2018-03-29T07:46:26.252Z</updated>
+  <updated>2018-03-29T08:19:26.927Z</updated>
   <id>http://xff6060.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>技术这东西</title>
+    <link href="http://xff6060.cn/2018/03/29/2902/"/>
+    <id>http://xff6060.cn/2018/03/29/2902/</id>
+    <published>2018-03-29T08:13:57.000Z</published>
+    <updated>2018-03-29T08:19:26.927Z</updated>
+    
+    <content type="html"><![CDATA[<p>摘要:聊天记录<br><img src="/2018/03/29/2902/heti.jpg" alt="你想输入的替代文字"><br><a id="more"></a><br>技术这东西，要想提高的话，说来说去，其实就是理论、实践加总结。<br>        理论的话，可以看书，可以从网络上获取信息。实践的话，则一般是在工作当中，或者自己平日里写写开源项目。<br>        至于总结，最好的办法，自然是写博客。<br>        掌握这三个步骤，几乎任何东西，你都可以按部就班的学会，只要你愿意付出时间和精力。<br>        成功，则意味着坚持。</p><p> 好了，今天的牛逼吹完了，吃鸡去了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;摘要:聊天记录&lt;br&gt;&lt;img src=&quot;/2018/03/29/2902/heti.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="成长" scheme="http://xff6060.cn/categories/%E6%88%90%E9%95%BF/"/>
+    
+    
+      <category term="博客" scheme="http://xff6060.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>聊天喽</title>
