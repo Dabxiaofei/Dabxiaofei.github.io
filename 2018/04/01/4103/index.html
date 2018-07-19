@@ -159,12 +159,12 @@
 <meta property="og:site_name" content="xffBlog">
 <meta property="og:description" content="摘要:java学习">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://xff6060.cn/2018/04/01/4103/310414.jpg">
-<meta property="og:updated_time" content="2018-04-01T15:25:34.606Z">
+<meta property="og:image" content="http://xff6060.cn/2018/04/01/4103/javaweb.jpg">
+<meta property="og:updated_time" content="2018-07-19T03:34:54.517Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="javaWeb03">
 <meta name="twitter:description" content="摘要:java学习">
-<meta name="twitter:image" content="http://xff6060.cn/2018/04/01/4103/310414.jpg">
+<meta name="twitter:image" content="http://xff6060.cn/2018/04/01/4103/javaweb.jpg">
 
 
 
@@ -509,7 +509,7 @@
       
 
       
-        <p>摘要:java学习<br><img src="/2018/04/01/4103/310414.jpg" alt="你想输入的替代文字"></p>
+        <p>摘要:java学习<br><img src="/2018/04/01/4103/javaweb.jpg" alt="你想输入的替代文字"></p>
 <a id="more"></a>
 <font size="5" color="red">在java中如何访问jsp的内置对象</font><br>public class MyFunction {<br>    public void addEmp(HttpServletRequest request) {<br>        String empno =request.getParameter(“empno”);<br>        System.out.println(“参数~~~~”+empno);<br>    }<br>}<br>在jsp中<br>&lt;%<br>MyFunction mf = new MyFunction();<br>mf.addEmp(request);<br>%&gt;<br>当我们进行访问<br><a href="http://localhost:8080/WebDemo03/JspTojava.jsp?empno=31" target="_blank" rel="noopener">http://localhost:8080/WebDemo03/JspTojava.jsp?empno=31</a><br>我们MyFunction就能进行响应获得内容<br>登陆注册包含了有什么功能<br>注册<br>1、验证码<br>2、发送手机校验<br>3、绑定邮箱  点击邮箱进行激活<br>登陆<br>第三方登陆 QQ微信<br>找回密码<br><br><font size="5" color="red">单点登陆</font>
 
@@ -529,24 +529,24 @@
 <p>完善login内容<br>登陆成功后写入cookie，下次登陆自动填充<br>&lt;%<br>Cookie[] c= request.getCookies();</p>
 <p>String username=null;<br>String password=null;</p>
 
-<p>if(c!=null&amp;&amp;c.length&gt;0){</p>
-<pre><code>for(int i=0;i&lt;c.length;i++){
-    if(c[i].getName()!=null&amp;&amp;c[i].getName().equals(&quot;username&quot;)){
-        username = c[i].getValue();
+<pre><code>if(c!=null&amp;&amp;c.length&gt;0){
+
+    for(int i=0;i&lt;c.length;i++){
+        if(c[i].getName()!=null&amp;&amp;c[i].getName().equals(&quot;username&quot;)){
+            username = c[i].getValue();
+        }
+    if(c[i].getName()!=null&amp;&amp;c[i].getName().equals(&quot;password&quot;)){
+            password = c[i].getValue();
+        }
     }
-if(c[i].getName()!=null&amp;&amp;c[i].getName().equals(&quot;password&quot;)){
-        password = c[i].getValue();
+    if(username==null){
+        username =&quot;&quot;;
+    }
+    if(password==null){
+        password =&quot;&quot;;
     }
 }
-if(username==null){
-    username =&quot;&quot;;
-}
-if(password==null){
-    password =&quot;&quot;;
-}
-</code></pre><p>}</p>
-<p>%&gt;</p>
-<form action="LoginAction.jsp" method="POST"><br><br><center><br>用户名:<input name="username" value="username"><br><br>密码:<input name="password" value="password"><br><br><input type="submit"><br></center><br><br></form>
+</code></pre><form action="LoginAction.jsp" method="POST"><br><br><center><br>用户名:<input name="username" value="username"><br><br>密码:<input name="password" value="password"><br><br><input type="submit"><br></center><br><br></form>
 
 
 
@@ -617,6 +617,10 @@ if(password==null){
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/07/19/7191/" rel="prev" title="Spring-@Aspect 的使用">
+                Spring-@Aspect 的使用 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -695,7 +699,7 @@ if(password==null){
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -706,7 +710,7 @@ if(password==null){
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -717,7 +721,7 @@ if(password==null){
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
